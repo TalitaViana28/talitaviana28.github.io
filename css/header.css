@@ -1,4 +1,4 @@
-header {
+.header {
   max-width: 1200px;
   display: flex;
   margin: 0 auto;
@@ -6,6 +6,7 @@ header {
   align-items: center;
   padding: 40px 20px;
 }
+
 
 .header-menu {
   display: flex;
@@ -21,6 +22,10 @@ header {
   text-decoration: none;
   color: #141414;
   display: block;
+}
+
+.header-menu a:hover {
+background: pink;
 }
 
 @media (max-width: 800px) {
